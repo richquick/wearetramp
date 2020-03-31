@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wearetramp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/wearetramp/static/js/main.72f44395.chunk.js",
+    "main.js.map": "/wearetramp/static/js/main.72f44395.chunk.js.map",
+    "runtime-main.js": "/wearetramp/static/js/runtime-main.4eefd71a.js",
+    "runtime-main.js.map": "/wearetramp/static/js/runtime-main.4eefd71a.js.map",
+    "static/js/2.11915166.chunk.js": "/wearetramp/static/js/2.11915166.chunk.js",
+    "static/js/2.11915166.chunk.js.map": "/wearetramp/static/js/2.11915166.chunk.js.map",
+    "index.html": "/wearetramp/index.html",
+    "precache-manifest.74cb90461a1aa12f0fad9b0ec355b615.js": "/wearetramp/precache-manifest.74cb90461a1aa12f0fad9b0ec355b615.js",
+    "service-worker.js": "/wearetramp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/wearetramp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.11915166.chunk.js.LICENSE.txt": "/wearetramp/static/js/2.11915166.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/wearetramp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4eefd71a.js",
+    "static/js/2.11915166.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.72f44395.chunk.js"
+  ]
+}
