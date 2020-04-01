@@ -13,8 +13,8 @@
   bottom: 5%;
   background-color: rgba(0,0,0,0.8);
   padding: 10px 30px 15px 30px;
-  border-radius: 10px;
   width: 80%;
+  transform: skew(0, -5deg);
 }
 
 .Beast-subscribe div {
@@ -27,7 +27,7 @@
   color: #000;
   padding: 5px 10px;
   font-size: calc(10px + 1vmin);
-  border-radius: 5px;
+  border-radius: 2px;
   border: 0;
   margin-top: 10px;
   margin-right: 10px;
@@ -38,13 +38,15 @@
   color: #000;
   padding: 5px 20px;
   font-size: calc(10px + 1vmin);
-  border-radius: 5px;
+  border-radius: 2px;
   border: 0;
+  font-weight: bold;
 }
 
 .Beast-subscribe button:hover {
   background: #ccc;
   color: #000;
+  cursor: pointer;
 }
 
 .Mailchimp-message-holder {
@@ -57,18 +59,12 @@ b.Mailchimp-header  {
   font-size: calc(10px + 1vmin);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .Beast-logo {
-    
-  }
-}
-
 .App-header {
   background-color: #282c34;
   background-image: url(./beast-bg@high-res.jpg);
   background-size: 100%;
   background-position: 0 10%;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -81,6 +77,21 @@ b.Mailchimp-header  {
 .App-link {
   color: #61dafb;
 }
+
+@media (min-width: 1100px) {
+  .Beast-subscribe {
+    bottom: 2%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .App-header {
+    height: 100vh;
+    background-position: 0 0;
+  }
+}
+
+
 
 @keyframes App-logo-spin {
   from {
