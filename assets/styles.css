@@ -1,0 +1,213 @@
+body {
+	color: #fff;
+	background: #140200;
+	margin: 0;
+	font-family: 'Helvetica', 'Arial', Sans Serif;
+	font-size: 1em;
+}
+
+.header {
+	background-image: url('header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+}
+
+.logo {
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+.video-holder {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.video-holder iframe {
+	border: 5px solid #333;
+	width: 560px;
+	height: 315px;
+}
+
+.begging-letter {
+	background-color: #fff;
+	color: #000;
+	transform: skew(0, -5deg);
+	padding: 5px 30px;
+	margin: 0 0 50px 0;
+}
+
+.begging-letter h2, .begging-letter p {
+	transform: skew(0, 0);
+}
+
+
+.donate-holder {
+	text-align: center;
+}
+
+.donate-button {
+	display: inline-block;
+	padding: 9px 20px;
+	background-image: linear-gradient(#ff2c02, #dc1202);
+	border-radius: 3px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	box-shadow: 2px 2px #000;
+	margin: 0 2px 2px 0;
+}
+
+.donate-button:hover {
+	margin: 2px 0 0 2px;
+}
+
+.share-links {
+	text-align: center;
+	margin: 0 10px;
+}
+
+.share-links b {
+	display: block;
+	margin: 7px 0;
+}
+
+.twitter, .facebook, .insta {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 0 10px;
+	overflow: hidden;
+	text-indent: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.twitter {
+	background-image: url('icon-twitter-240.png');
+} 
+
+.facebook {
+	background-image: url('icon-facebook-240.png');
+}
+
+.insta {
+	background-image: url('icon-instagram-240.png');
+}
+
+.twitter:hover, .facebook:hover, .insta:hover {
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Alte-DIN-1451-Mittelschrift', 'Helvetica', 'Arial', Sans Serif;
+	transform: skew(0, -5deg);
+	text-align: center;
+}
+
+p {
+	transform: skew(0, -5deg);
+}
+
+.credits, .credits h3 {
+	text-align: center;
+}
+
+.footer {
+	background-color: #260400;
+	color: #000;
+	transform: skew(0, -5deg);
+	padding: 5px 30px;
+	margin: 120px 0 50px 0;
+	color: #fff;
+	height: 120px;
+}
+
+.footer-after {
+	background-color: #260400;
+	height: 130px;
+	margin-top: -120px;
+}
+
+.email-subscribe {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer .share-links b {
+	display: block;
+	margin: 7px 23px;
+}
+
+.footer button {
+	display: inline-block;
+	padding: 9px 20px;
+	background-image: linear-gradient(#ff2c02, #dc1202);
+	border-radius: 3px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	box-shadow: 2px 2px #000;
+	margin: 0 2px 2px 0;
+	border: none;
+	font-family: 'Helvetica', 'Arial', Sans Serif;
+	font-size: 1em;
+}
+
+.footer label {
+	font-weight: bold;
+}
+
+.footer-containter {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+
+
+@media (max-width: 590px) {
+	.video-holder iframe {
+		width: 230px;
+		height: 157px;
+	}
+}
+
+@media (min-width: 590px) {
+
+	.email-subscribe {
+		width: 49%;
+		float: left;
+		padding-top: 40px;
+	}
+
+	.footer .share-links {
+		width: 49%;
+		float: right;
+		text-align: right;
+		margin-top: -60px;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.twitter, .facebook, .insta {
+		width: 60px;
+		height: 60px;
+	}
+	.donate-button {
+		font-size: 2em;
+		padding: 20px 40px;
+	}
+}
+
